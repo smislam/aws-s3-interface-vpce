@@ -1,6 +1,6 @@
 # An Example of Serving Static Website from S3 using AWS S3 Interface VPC Endpoint using CDK.
 
-This example demonstrates how a static site can be served using AWS S3 and AWS S3 Interface VPC Endpoint using AWS CDK.  This example was drived from using [this architecture](https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-for-amazon-s3/)
+This example demonstrates how a static site can be served using AWS S3 and AWS S3 Interface VPC Endpoint using AWS CDK.  This example was drived from using [this architecture](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/).
 
 This project is deployed using AWS CDK in TypeScript.
 
