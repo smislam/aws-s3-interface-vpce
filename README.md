@@ -1,6 +1,6 @@
 # An Example of Serving Static Website from S3 using Private Link (AWS S3 Interface VPC Endpoint) using CDK.
 
-This example demonstrates how a Static Site can be served using AWS ALB, S3 and AWS S3 Interface VPC Endpoint/Private Link using AWS CDK.  This example was drived from using [this architecture](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/).
+This example demonstrates how a Static Site can be served using AWS ALB, S3 and Private Link (AWS S3 Interface VPC Endpoint) using AWS CDK.  This example was drived from using [this architecture](https://aws.amazon.com/blogs/networking-and-content-delivery/hosting-internal-https-static-websites-with-alb-s3-and-privatelink/).
 
 ![image](Networking_NetCDNBlog-430-v2.jpg "Solution Architecture")
 *Architecture Credit - AWS/Schuyler Jager*
@@ -24,4 +24,3 @@ This project is deployed using AWS CDK in TypeScript.
 
 ## Additional Considerations
 * I am using Self-Signed Certificate for TLS with AWS ALB.  You can use AWS Certificate Manager Certificate to make things easier.
-* I am not planning to expose this website outside my VPC.  If you want to expose your Website, create a Route 53 Public Hosted Zone in your VPC.
